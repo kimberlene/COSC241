@@ -1,0 +1,37 @@
+1. class hi is mot public, should be declared in a file name hi.java
+
+2. no error. Program runs and prints:
+   hello, world!
+
+3. error: ')' expected
+  System.out.println(hello, world!");
+   error: unclosed string literal
+  System.out.println(hello, world!");
+  error: ';' expected
+  System.out.println(hello, world!");
+  error: reached end of file while parsing
+
+4. error: unclosed string literal
+   System.out.println"Hello, world!);
+   error: not a statement
+   System.out.println"Hello, world!);
+   error: reached end of file while parsing
+   
+5. Main method not found in class Hi, please define the main method as:
+  public static void main(String[] args)
+  or a JavaFX application class must extend javafx.application.Application
+
+6. rror: cannot find symbol
+   System.out.printline("Hello, world!");
+   symbol:   method printline(String)
+   location: variable out of type PrintStream
+
+7.error: ';' expected
+System.out.println("Hello, world!")
+
+8. error: reached end of file while parsing
+}
+
+
+
+
